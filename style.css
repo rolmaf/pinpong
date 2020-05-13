@@ -1,0 +1,63 @@
+svg {
+    display: inline-block;
+    border: 8px solid black;
+    /* background-image: url(https://t4.ftcdn.net/jpg/02/78/75/17/240_F_278751711_j9WAsorPM4eAjfF93VC0DT1bNLRkOx2x.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+.score {
+    display: inline-block;
+    margin-left: 20px;
+    
+    font-size: 20pt;
+    color: chocolate;
+}
+button {
+    border: 0;
+    width: 665px;
+    color: white;
+    height: 30px;
+    font-size: 15pt;
+    background-color: #F4413B;
+}
+button:hover {
+    background-color: #2b3b9b;
+}
+.fon {
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.white {
+    background-color: white;
+}
+.noch {
+    background-image: url(https://t4.ftcdn.net/jpg/02/78/75/17/240_F_278751711_j9WAsorPM4eAjfF93VC0DT1bNLRkOx2x.jpg);
+}
+.img-fon2 {
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: contain;
+}
+.fon-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100px;
+    /* background-color: #2b3b9b; */
+    position: absolute;
+        top: 0px;
+        left: 680px;
+}
